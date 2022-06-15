@@ -1,0 +1,191 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #2A4A5C;
+	font-weight: 400;
+	font-family: BARLOW;
+	background-color: #EFF6FF;
+}
+
+.container {
+	display: flex;
+	margin: 6em 5em;
+	background-color: #FFF;
+}
+
+.container__logo {
+	width: 53%;
+	background-repeat: no-repeat;
+	background-image: url(https://sun9-66.userapi.com/s/v1/ig2/oSjhVaScLiRyMa0mUKlJaBH4oxTGzOKrQFG5AwoQopxnROKmcs0aLOJQuHEsLtR9XjBPRao-gvOvD11jDpGfNwo_.jpg?size=759x1000&quality=95&type=album);
+}
+
+.logo {
+	width: 130px;
+	margin: 3em 0 0 3em;
+}
+
+.container__main {
+	width: 47%;
+}
+
+.container__main-title {
+	margin: 6em 0 0 5em;
+}
+
+.container__main-title h1 {
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+.container__main-title p {
+	color: #7B8A92;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.container__main-btn {
+	margin: 4em 0 3em 5em;
+}
+
+.facebook {
+	color: #fff;
+	height: 3em;
+	border: none;
+	width: 17.5em;
+	margin-right: 2.5em;
+	background-color: #255A9B;
+	background-repeat: no-repeat;
+	background-image: url(https://raw.githubusercontent.com/jm-program/css-task/236629ad7226d4d4ba0cdc05160c9d181a1d1807/img/facebook.svg);
+}
+
+.linkedin {
+	color: #fff;
+	height: 3em;
+	border: none;
+	width: 17.5em;
+	margin-right: 2.5em;
+	background-size: 16%;
+	background-color: #0076B6;
+	background-repeat: no-repeat;
+	background-image: url(https://raw.githubusercontent.com/jm-program/css-task/236629ad7226d4d4ba0cdc05160c9d181a1d1807/img/linkedin.svg);
+}
+
+.main__form fieldset {
+	border: none;
+}
+
+.line_1 {
+	top: 418px;
+	width: 10em;
+	position: absolute;
+	margin-left: -110px;
+}
+
+.main__form legend {
+	font-weight: 500;
+	font-size: 0.65rem;
+	margin-left: 29.25em;
+}
+
+.line_2 {
+	top: 418px;
+	width: 10em;
+	position: absolute;
+	margin-left: 20px;
+}
+
+.main__form-dataEntry {
+	display: flex;
+}
+
+.email {
+	height: 3.2em;
+	width: 14.7em;
+	color: #7B8A92;
+	padding-left: 0.5em;
+	border: 1px solid #EEEEEE;
+	border-radius: 0 0.3em 0 0;
+	margin: 2.7em 1.2em 2.4em 3.8em;
+}
+
+.email input {
+	border: none;
+}
+
+.phone {
+	height: 3.2em;
+	width: 14.7em;
+	color: #7B8A92;
+	padding-left: 0.5em;
+	border: 1px solid #EEEEEE;
+	margin: 2.7em 0 2.4em 1em;
+	border-radius: 0 0.3em 0.3em 0;
+}
+
+.phone input {
+	border: none;
+}
+
+.main__form-investType-title {
+	margin: 0 0 3em 3.4em;
+}
+
+.main__form-investType-title h2 {
+	font-weight: 500;
+	font-size: 1.3rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.main__form-investType-title p {
+	color: #7B8A92;
+	font-size: 0.85rem;
+}
+
+.main__form-investType-radio {
+	margin: 0 0 1.4em 3.4em;
+}
+
+.investor {
+	color: #000;
+	font-weight: 500;
+	font-size: 0.9rem;
+	padding-right: 4em;
+}
+
+.main__form-investType-info {
+	width: 19em;
+	color: #96A5B1;
+	padding: 0.6em;
+	font-size: 0.8rem;
+	margin: 0 0 3.2em 4.7em;
+}
+
+.main__form-agreementTerms {
+	color: #96A5B1;
+	display: block;
+	font-size: 0.8rem;
+	margin: 0 0 4.7em 3.7em;
+}
+
+.main__form-btn {
+	color: #fff;
+	border: none;
+	height: 2.7em;
+	width: 16em;
+	font-size: 0.9rem;
+	margin-right: 2.5em;
+	border-radius: 0.3em;
+	margin: 0 0 6.7em 3.8em;
+	background-color: #3698FB;
+}
